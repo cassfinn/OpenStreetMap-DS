@@ -356,8 +356,22 @@ barbecue, 2
 
 # Conclusion
  After this review of the data it’s obvious that the Orlando area is inconsistent.  For example, amenities for places to eat are categorized in several different ways:  fast_food, restaurant, cafe, and more.  There are inconsistencies in how data such as city names are entered.  For example, some cities are all lowercase, others are in double quotes.  It is adequate for the purposes of this exercise. 
- It would be interesting to use the GPS data with data from government and other sources to create meaningful maps.  For example, a map showing location of schools combined with census data may show a correlation between zip code and academic success (Florida grades schools on A,B,C,D levels).
- Another use of the data could be for businesses looking for a place to open a new storefront or families looking to relocate to central Florida.
+ 
+### Benefits/Anticipated Issues
+### Issues with the Current Data:
+The amenities listed do not include many other categories which might make the data more useful to people:
+- 1 - There is only one sports center listed in all of the Central Florida area, but I know from living here that there are many more. If I wanted to find a soccer field or a tennis court the OpenStreetMap data would not be helpful. Someone visiting would not know that there are more facilities if their only source of information was OSM.
+- 2 - There seem to be many errors reported by people. For example, mislabeled facilities, missing roads which are closed, incorrect information about speed limits.
+
+### Recommendations and Possible Solutions
+One solution might be to find a way to incentivize business owners and other stakeholders to update their own data.  For example, the Florida Youth Soccer Association could update all of the soccer fields and label them on the map.  This would be useful for coordinating recreational games. Another example would be for the United States Tennis Association to update all of the tennis fields available. 
+Anticipated issues: Someone would have to own the incentivization project and communicate it to all. This is a volunteer, unpaid task and it would be difficult to find people willing to promote this initiative. People are on their honor to enter data correctly.
+
+Another solution might be to have the local governments take ownership and responsibility for updating the data on the OpenStreetMap project. Local governments already maintain property information. 
+Benefits of Government Responsibility:
+ - The OSM data would be useful for both public and private interests if the quality was improved. The government might even consider charging a fee to users for the information. For example, if a major corporation like Amazon was considering opening a second headquarters in Central Florida, they would get a much better idea of transportation, facilities and zoning areas if they happened to use OSM data to research.  As it is now, the OSM data is incomplete.
+- It would be interesting to use the GPS data with data from data.gov and other sources to create interesting and meaningful maps. For example, a map showing location of schools combined with census data may show a correlation between zip code and academic success (Florida grades schools on A,B,C,D levels).
+- Another use of the data could be for businesses looking for a place to open a new storefront or families looking to relocate to central Florida.
 
 
 
