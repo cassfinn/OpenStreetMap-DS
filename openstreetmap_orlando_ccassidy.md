@@ -355,23 +355,30 @@ barbecue, 2
 ```
 
 # Conclusion
- After this review of the data it’s obvious that the Orlando area is inconsistent.  For example, amenities for places to eat are categorized in several different ways:  fast_food, restaurant, cafe, and more.  There are inconsistencies in how data such as city names are entered.  For example, some cities are all lowercase, others are in double quotes.  It is adequate for the purposes of this exercise. 
+ After this review of the data it’s obvious that the Orlando area is inconsistent.  For example, amenities for places to eat are categorized in several different ways:  fast_food, restaurant, cafe, and more.  There are inconsistencies in how data such as city names are entered.  For example, some cities are all lowercase, others are in double quotes.  It is adequate for the purposes of this exercise. The following section lists suggested solutions for improving the data, potential issues and benefits. 
  
 ### Benefits/Anticipated Issues
 ### Issues with the Current Data:
 The amenities listed do not include many other categories which might make the data more useful to people:
-- 1 - There is only one sports center listed in all of the Central Florida area, but I know from living here that there are many more. If I wanted to find a soccer field or a tennis court the OpenStreetMap data would not be helpful. Someone visiting would not know that there are more facilities if their only source of information was OSM.
+- 1 - For example, there is only one sports center listed in all of the Central Florida area, but I know from living here that there are many more. If I wanted to find a soccer field or a tennis court the OpenStreetMap data would not be helpful. Someone visiting would not know that there are more facilities if their only source of information was OSM.
 - 2 - There seem to be many errors reported by people. For example, mislabeled facilities, missing roads which are closed, incorrect information about speed limits.
 
-### Recommendations and Possible Solutions
+### Recommendations and Possible Solutions for Improving the Data
+Since OpenStreetMap is updated voluntarily, there is not a pressing incentive to maintain and improve the accuracy of the data.
+
 One solution might be to find a way to incentivize business owners and other stakeholders to update their own data.  For example, the Florida Youth Soccer Association could update all of the soccer fields and label them on the map.  This would be useful for coordinating recreational games. Another example would be for the United States Tennis Association to update all of the tennis fields available. 
 Anticipated issues: Someone would have to own the incentivization project and communicate it to all. This is a volunteer, unpaid task and it would be difficult to find people willing to promote this initiative. People are on their honor to enter data correctly.
 
-Another solution might be to have the local governments take ownership and responsibility for updating the data on the OpenStreetMap project. Local governments already maintain property information. 
+Another solution might be to have local governments take responsibility for updating the data on the OpenStreetMap project. Local governments already maintain property information for use in zoning decisions and planning. While there are other sources of mapping information which may be more accurate, such as Google Maps and Google Places, those sources of data are privately owned and it can be too expensive for many localities to purchase an API key.
+
 Benefits of Government Responsibility:
- - The OSM data would be useful for both public and private interests if the quality was improved. The government might even consider charging a fee to users for the information. For example, if a major corporation like Amazon was considering opening a second headquarters in Central Florida, they would get a much better idea of transportation, facilities and zoning areas if they happened to use OSM data to research.  As it is now, the OSM data is incomplete.
-- It would be interesting to use the GPS data with data from data.gov and other sources to create interesting and meaningful maps. For example, a map showing location of schools combined with census data may show a correlation between zip code and academic success (Florida grades schools on A,B,C,D levels).
-- Another use of the data could be for businesses looking for a place to open a new storefront or families looking to relocate to central Florida.
+ - The OSM data could be useful for both public and private interests if the quality of the data was improved. The government could add layers and amenities which Google and other sources may not have access to, but which could lead to growth in profits and quality of life for businesses and residents. Here are just several ideas:
+      - Businesses considering relocating to Central Florida would have a reliable source of mapping information where they could easily see which areas are zoned for their purposes. For example, if a major corporation like Amazon was considering opening a second headquarters in Central Florida, they would get a much better idea of transportation, facilities and zoning areas if they happened to use OSM data to research.  As it is now, the OSM data is incomplete.
+      - Layers could be added to the map which could help city planners and residents design "smart cities" in which newer technology is applied to improve the quality of life of residents.  For example, high tech sanitation facilities, traffic lights which can adapt to the flow of traffic, and street lights which notify the government automatically when their bulbs need to be replaced.   
+      - Apps could be written which combine the publicly available GPS data with data from Data.gov and other sources to create interesting and meaningful maps. For example, a map showing location of schools combined with census data may show a correlation between zip code and academic success (Florida grades schools on A,B,C,D levels).  This would provide more meaningful information to education planners and decision makers in the school districts, counties and state about funding allocation.
+      - Political parties would also find useful information if they overlaid voting districts onto maps and planned routes for campaigning.  
+      - Delivery services could use the maps to generate smarter, faster routes to their customers.
+
 
 
 
