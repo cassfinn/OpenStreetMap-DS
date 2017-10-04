@@ -380,6 +380,7 @@ Benefits of Government Responsibility:
       <br />
       <br />- Layers could be added to the map which could help city planners and residents design "Smart Cities" in which newer technology is applied to improve the quality of life of residents.  For example, high tech sanitation facilities, traffic lights which can adapt to the flow of traffic, and street lights which notify the government automatically when their bulbs need to be replaced. More information: https://www2.deloitte.com/nl/nl/pages/real-estate/articles/smart-cities-and-the-vital-role-of-the-government.html  
       <br />- Apps could be written which combine the publicly available GPS data with data from Data.gov and other sources to create interesting and meaningful maps. For example, a map showing location of schools combined with census data may show a correlation between zip code and academic success (Florida grades schools on A,B,C,D levels).  This would provide more meaningful information to education planners and decision makers in the school districts, counties and state about funding allocation.
+      <br />
       <br />- Political parties would also find useful information if they overlaid voting districts onto maps and planned routes for campaigning.  
       <br />- Delivery services could use the maps to generate smarter, faster routes to their customers.
 
